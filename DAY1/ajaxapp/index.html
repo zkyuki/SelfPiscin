@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ajax Example</title>
+  </head>
+  <body>
+    <h2>GitHub User Info</h2>
+
+    <input id="userId" type="text" value="zkyuki" />
+    <button onclick="main();">Get user info</button>
+
+    <div id="result"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+//DOMは言語機能ECMAScriptではなくブラウザが実装しているAPIです。 そのため、DOMを持たないNode.jsなどの実行環境では使えず、documentのようなグローバルオブジェクトも存在しないことには注意が必要です。
